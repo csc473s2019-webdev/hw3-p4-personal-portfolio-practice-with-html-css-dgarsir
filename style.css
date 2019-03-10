@@ -1,6 +1,6 @@
 html, body {
     text-align: center;
-    background-color: beige;
+    background-color: #e5eafa;
 }
 
 * {
@@ -14,28 +14,32 @@ html, body {
 }
 
 #welcome-section p {
-    color: green;
+    color: #093824;
 }
 
 #navbar ul {
     width: 100%;
     text-align: right;
     position: fixed;
-    background-color: green;
+    background-color: #093824;
 }
 
 #navbar ul li {
     display: inline-block;
-    margin: 55px;
+    margin: 50px;
 }
 
 #navbar ul li a {
     text-decoration: none;
-    color: beige;
+    color: #e5eafa;
 }
 
 #navbar ul li a:hover {
-    color: black;
+    color: #071013;
+}
+
+#projects {
+    background-color: #c6ccb2;
 }
 
 #contact-header {
@@ -50,15 +54,21 @@ html, body {
 
 #contact ul li a {
     text-decoration: none;
-    color: beige;
+    color: #e5eafa;
     margin: 55px;
     border: 1px solid;
     padding: 10px;
-    border-color: black;
-    background-color: black;
+    border-color: #071013;
+    background-color: #071013;
 }
 #contact ul li a:hover {
     color: black;
-    background: beige;
+    background: #e5eafa;
 }
 
+#footer {
+    padding: 50px 0 50px 0;
+    background: #093824;
+    color: #e5eafa;
+    width: 100%;
+}
