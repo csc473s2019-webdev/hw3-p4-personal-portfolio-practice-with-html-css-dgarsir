@@ -11,7 +11,10 @@ html, body {
 #welcome-section {
     height: 100vh;
     padding-top: 45vh;
+}
 
+#welcome-section p {
+    color: green;
 }
 
 #navbar ul {
@@ -36,24 +39,26 @@ html, body {
 }
 
 #contact-header {
-    padding: 160px 0 110px;
-}
-
-#contact {
-    background-color: green;
+    padding: 160px 0 25px;
 }
 
 #contact ul li {
     display: inline-block;
     list-style-type: none;
-    margin: 55px;
-    border: 1px;
+    padding: 50px;
 }
 
 #contact ul li a {
     text-decoration: none;
     color: beige;
+    margin: 55px;
+    border: 1px solid;
+    padding: 10px;
+    border-color: black;
+    background-color: black;
 }
 #contact ul li a:hover {
     color: black;
+    background: beige;
 }
+
