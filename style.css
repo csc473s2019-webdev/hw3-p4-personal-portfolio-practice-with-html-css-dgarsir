@@ -35,34 +35,39 @@ html, body {
 }
 
 #navbar ul li a:hover {
-    color: #071013;
+    color: #23b5d3;
 }
 
 #projects {
+    height: 100vh;
+    padding-top: 10vh;
     background-color: #c6ccb2;
+}
+#contact-master {
+    height: 50vh;
+    padding-top: 25vh;
 }
 
 #contact-header {
-    padding: 160px 0 25px;
+    padding: 50px 0 25px;
 }
 
 #contact ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 50px;
+    padding: 25px 50px 50px 50px;
 }
 
 #contact ul li a {
     text-decoration: none;
     color: #e5eafa;
-    margin: 55px;
     border: 1px solid;
     padding: 10px;
     border-color: #071013;
     background-color: #071013;
 }
 #contact ul li a:hover {
-    color: black;
+    color: #23b5d3;
     background: #e5eafa;
 }
 
